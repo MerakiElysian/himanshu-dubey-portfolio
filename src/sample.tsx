@@ -1330,7 +1330,7 @@ export default function Portfolio() {
             <div className="sec-bg-num">01</div>
             <img
             className="s0-portrait"
-            src="../public/me-Photoroom.png"
+            src="/me-Photoroom.png"
             alt=""
             aria-hidden="true"
             />
