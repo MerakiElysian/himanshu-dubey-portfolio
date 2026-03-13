@@ -47,17 +47,17 @@ const projects: Project[] = [
   media: [
     {
       type: "image",
-      src: "/public/Work pics/arm1.jpeg",
+      src: "/Work pics/arm1.jpeg",
       caption: "Graphical simulator showing robotic arm movement and joint positions",
     },
     {
       type: "image",
-      src: "/public/Work pics/arm2.jpeg",
+      src: "/Work pics/arm2.jpeg",
       caption: "Physical robotic arm controlled through Raspberry Pi and servo motors",
     },
     {
       type: "video",
-      src: "/public/Work pics/armSim.mp4",
+      src: "/Work pics/armSim.mp4",
       caption: "Physical robotic arm controlled through Raspberry Pi and servo motors",
     },
   ],
@@ -82,17 +82,17 @@ const projects: Project[] = [
   media: [
     {
       type: "image",
-      src: "/public/Work pics/robo.jpeg",
+      src: "/Work pics/robo.jpeg",
       caption: "Autonomous robotic car prototype with sensors and motor driverc (Top View)",
     },
     {
       type: "image",
-      src: "/public/Work pics/robot.jpeg",
+      src: "/Work pics/robot.jpeg",
       caption: "Autonomous robotic car prototype with sensors and motor driver (Front View)",
     },
     {
       type: "video",
-      src: "/public/Work pics//roror.mp4",
+      src: "/Work pics//roror.mp4",
       caption: "Line following and obstacle avoidance demonstration",
     },
   ],
@@ -1340,7 +1340,7 @@ export default function Portfolio() {
             <div className="sec-bg-num">01</div>
             <img
             className="s0-portrait"
-            src="/public/me-Photoroom.png"
+            src="/me-Photoroom.png"
             alt="Himanshu Dubey"
             aria-hidden="true"
             />
