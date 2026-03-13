@@ -1340,8 +1340,8 @@ export default function Portfolio() {
             <div className="sec-bg-num">01</div>
             <img
             className="s0-portrait"
-            src="../public/me-Photoroom.png"
-            alt=""
+            src="/public/me-Photoroom.png"
+            alt="Himanshu Dubey"
             aria-hidden="true"
             />
           </section>
