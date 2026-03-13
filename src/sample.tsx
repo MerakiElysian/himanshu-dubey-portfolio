@@ -47,12 +47,17 @@ const projects: Project[] = [
   media: [
     {
       type: "image",
-      src: "/projects/robotic-arm-simulator/simulator-ui.png",
+      src: "/public/Work pics/arm1.jpeg",
       caption: "Graphical simulator showing robotic arm movement and joint positions",
     },
     {
       type: "image",
-      src: "/projects/robotic-arm-simulator/hardware-arm.png",
+      src: "/public/Work pics/arm2.jpeg",
+      caption: "Physical robotic arm controlled through Raspberry Pi and servo motors",
+    },
+    {
+      type: "video",
+      src: "/public/Work pics/armSim.mp4",
       caption: "Physical robotic arm controlled through Raspberry Pi and servo motors",
     },
   ],
@@ -77,12 +82,17 @@ const projects: Project[] = [
   media: [
     {
       type: "image",
-      src: "/projects/line-follower/robot-car.png",
-      caption: "Autonomous robotic car prototype with sensors and motor driver",
+      src: "/public/Work pics/robo.jpeg",
+      caption: "Autonomous robotic car prototype with sensors and motor driverc (Top View)",
+    },
+    {
+      type: "image",
+      src: "/public/Work pics/robot.jpeg",
+      caption: "Autonomous robotic car prototype with sensors and motor driver (Front View)",
     },
     {
       type: "video",
-      src: "/projects/line-follower/robot-demo.mp4",
+      src: "/public/Work pics//roror.mp4",
       caption: "Line following and obstacle avoidance demonstration",
     },
   ],
@@ -1330,7 +1340,7 @@ export default function Portfolio() {
             <div className="sec-bg-num">01</div>
             <img
             className="s0-portrait"
-            src="../src/assets/me-Photoroom.png"
+            src="../public/me-Photoroom.png"
             alt=""
             aria-hidden="true"
             />
